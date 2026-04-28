@@ -11,6 +11,13 @@ const PORT = process.env.PORT || 8080;
 const app = express();
 
 // Serve static content for the app from the "public" directory in the application directory.
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "http://102.37.21.215");
+  res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+
 app.use(express.static("public"));
 
 // Parse application body
