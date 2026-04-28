@@ -1,0 +1,44 @@
+2026/04/28 15:23:51 [notice] 1#1: using the "epoll" event method
+2026/04/28 15:23:51 [notice] 1#1: nginx/1.29.8
+2026/04/28 15:23:51 [notice] 1#1: built by gcc 15.2.0 (Alpine 15.2.0) 
+2026/04/28 15:23:51 [notice] 1#1: OS: Linux 6.17.0-1011-azure
+2026/04/28 15:23:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2026/04/28 15:23:51 [notice] 1#1: start worker processes
+2026/04/28 15:23:51 [notice] 1#1: start worker process 21
+2026/04/28 15:23:51 [notice] 1#1: start worker process 22
+2026/04/28 15:32:02 [warn] 21#21: *21 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 49.37.52.104, server: , request: "GET /assets/img/15.png HTTP/1.1", upstream: "http://172.19.0.2:8080/assets/img/15.png", host: "102.37.21.215", referrer: "http://102.37.21.215/gallery"
+2026/04/28 15:32:02 [warn] 22#22: *3 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/2/00/0000000002 while reading upstream, client: 49.37.52.104, server: , request: "GET /assets/img/10.png HTTP/1.1", upstream: "http://172.19.0.2:8080/assets/img/10.png", host: "102.37.21.215", referrer: "http://102.37.21.215/gallery"
+2026/04/28 15:32:02 [warn] 21#21: *13 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/3/00/0000000003 while reading upstream, client: 49.37.52.104, server: , request: "GET /assets/img/11.png HTTP/1.1", upstream: "http://172.19.0.2:8080/assets/img/11.png", host: "102.37.21.215", referrer: "http://102.37.21.215/gallery"
+2026/04/28 15:32:02 [warn] 21#21: *7 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/4/00/0000000004 while reading upstream, client: 49.37.52.104, server: , request: "GET /assets/img/13.png HTTP/1.1", upstream: "http://172.19.0.2:8080/assets/img/13.png", host: "102.37.21.215", referrer: "http://102.37.21.215/gallery"
+2026/04/28 15:32:02 [warn] 21#21: *9 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/5/00/0000000005 while reading upstream, client: 49.37.52.104, server: , request: "GET /assets/img/14.png HTTP/1.1", upstream: "http://172.19.0.2:8080/assets/img/14.png", host: "102.37.21.215", referrer: "http://102.37.21.215/gallery"
+2026/04/28 15:32:03 [warn] 21#21: *11 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/6/00/0000000006 while reading upstream, client: 49.37.52.104, server: , request: "GET /assets/img/9.png HTTP/1.1", upstream: "http://172.19.0.2:8080/assets/img/9.png", host: "102.37.21.215", referrer: "http://102.37.21.215/gallery"
+2026/04/28 15:32:04 [warn] 22#22: *3 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/7/00/0000000007 while reading upstream, client: 49.37.52.104, server: , request: "GET /assets/img/16.png HTTP/1.1", upstream: "http://172.19.0.2:8080/assets/img/16.png", host: "102.37.21.215", referrer: "http://102.37.21.215/gallery"
+2026/04/28 15:32:04 [warn] 21#21: *13 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/8/00/0000000008 while reading upstream, client: 49.37.52.104, server: , request: "GET /assets/img/17.png HTTP/1.1", upstream: "http://172.19.0.2:8080/assets/img/17.png", host: "102.37.21.215", referrer: "http://102.37.21.215/gallery"
+2026/04/28 15:32:04 [warn] 21#21: *7 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/9/00/0000000009 while reading upstream, client: 49.37.52.104, server: , request: "GET /assets/img/18.png HTTP/1.1", upstream: "http://172.19.0.2:8080/assets/img/18.png", host: "102.37.21.215", referrer: "http://102.37.21.215/gallery"
+2026/04/28 15:42:13 [error] 21#21: *181 connect() failed (113: Host is unreachable) while connecting to upstream, client: 49.37.52.104, server: , request: "GET /assets/css/materialize.css HTTP/1.1", upstream: "http://172.19.0.2:8080/assets/css/materialize.css", host: "102.37.21.215", referrer: "http://102.37.21.215/"
+2026/04/28 15:42:13 [error] 21#21: *184 connect() failed (113: Host is unreachable) while connecting to upstream, client: 49.37.52.104, server: , request: "GET /assets/css/style.css HTTP/1.1", upstream: "http://172.19.0.2:8080/assets/css/style.css", host: "102.37.21.215", referrer: "http://102.37.21.215/"
+2026/04/28 15:42:13 [error] 21#21: *188 connect() failed (113: Host is unreachable) while connecting to upstream, client: 49.37.52.104, server: , request: "GET /assets/css/materialize.min.css HTTP/1.1", upstream: "http://172.19.0.2:8080/assets/css/materialize.min.css", host: "102.37.21.215", referrer: "http://102.37.21.215/"
+2026/04/28 15:42:18 [error] 21#21: *188 connect() failed (113: Host is unreachable) while connecting to upstream, client: 49.37.52.104, server: , request: "GET / HTTP/1.1", upstream: "http://172.19.0.2:8080/", host: "102.37.21.215", referrer: "http://102.37.21.215/cart"
+2026/04/28 15:43:08 [warn] 21#21: *184 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/0/01/0000000010 while reading upstream, client: 49.37.52.104, server: , request: "GET /assets/css/materialize.css HTTP/1.1", upstream: "http://172.19.0.2:8080/assets/css/materialize.css", host: "102.37.21.215", referrer: "http://102.37.21.215/"
+2026/04/28 16:28:35 [error] 21#21: *280 connect() failed (113: Host is unreachable) while connecting to upstream, client: 150.109.230.210, server: , request: "GET / HTTP/1.1", upstream: "http://172.19.0.2:8080/", host: "102.37.21.215:80"
+2026/04/28 16:29:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/04/28 16:29:05 [notice] 22#22: gracefully shutting down
+2026/04/28 16:29:05 [notice] 22#22: exiting
+2026/04/28 16:29:05 [notice] 21#21: gracefully shutting down
+2026/04/28 16:29:05 [notice] 21#21: exiting
+2026/04/28 16:29:05 [notice] 22#22: exit
+2026/04/28 16:29:05 [notice] 21#21: exit
+2026/04/28 16:29:05 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2026/04/28 16:29:05 [notice] 1#1: worker process 21 exited with code 0
+2026/04/28 16:29:05 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/28 16:29:05 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2026/04/28 16:29:05 [notice] 1#1: worker process 22 exited with code 0
+2026/04/28 16:29:05 [notice] 1#1: exit
+2026/04/28 16:30:09 [notice] 1#1: using the "epoll" event method
+2026/04/28 16:30:09 [notice] 1#1: nginx/1.29.8
+2026/04/28 16:30:09 [notice] 1#1: built by gcc 15.2.0 (Alpine 15.2.0) 
+2026/04/28 16:30:09 [notice] 1#1: OS: Linux 6.17.0-1011-azure
+2026/04/28 16:30:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2026/04/28 16:30:09 [notice] 1#1: start worker processes
+2026/04/28 16:30:09 [notice] 1#1: start worker process 20
+2026/04/28 16:30:09 [notice] 1#1: start worker process 21

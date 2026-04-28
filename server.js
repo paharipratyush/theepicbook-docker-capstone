@@ -32,3 +32,4 @@ db.sequelize.sync().then(function () {
     console.log("App listening on PORT " + PORT);
   });
 });
+app.get("/health", (req, res) => { res.status(200).json({ status: "Healthy", message: "The EpicBook API is running perfectly!" }); });

@@ -1,0 +1,46 @@
+2026/04/28 13:39:58 [notice] 1#1: using the "epoll" event method
+2026/04/28 13:39:58 [notice] 1#1: nginx/1.29.8
+2026/04/28 13:39:58 [notice] 1#1: built by gcc 15.2.0 (Alpine 15.2.0) 
+2026/04/28 13:39:58 [notice] 1#1: OS: Linux 6.17.0-1011-azure
+2026/04/28 13:39:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2026/04/28 13:39:58 [notice] 1#1: start worker processes
+2026/04/28 13:39:58 [notice] 1#1: start worker process 21
+2026/04/28 13:39:58 [notice] 1#1: start worker process 22
+2026/04/28 14:47:34 [error] 22#22: *59 connect() failed (113: Host is unreachable) while connecting to upstream, client: 49.37.52.104, server: , request: "GET /api/health HTTP/1.1", upstream: "http://172.19.0.2:8080/api/health", host: "102.37.21.215"
+2026/04/28 14:47:38 [error] 22#22: *61 connect() failed (113: Host is unreachable) while connecting to upstream, client: 43.157.153.236, server: , request: "GET / HTTP/1.1", upstream: "http://172.19.0.2:8080/", host: "102.37.21.215"
+2026/04/28 14:47:41 [error] 22#22: *59 connect() failed (113: Host is unreachable) while connecting to upstream, client: 49.37.52.104, server: , request: "GET /health HTTP/1.1", upstream: "http://172.19.0.2:8080/health", host: "102.37.21.215"
+2026/04/28 14:51:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/04/28 14:51:55 [notice] 21#21: gracefully shutting down
+2026/04/28 14:51:55 [notice] 21#21: exiting
+2026/04/28 14:51:55 [notice] 22#22: gracefully shutting down
+2026/04/28 14:51:55 [notice] 22#22: exiting
+2026/04/28 14:51:55 [notice] 21#21: exit
+2026/04/28 14:51:55 [notice] 22#22: exit
+2026/04/28 14:51:55 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2026/04/28 14:51:55 [notice] 1#1: worker process 22 exited with code 0
+2026/04/28 14:51:55 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/28 14:51:55 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2026/04/28 14:51:55 [notice] 1#1: worker process 21 exited with code 0
+2026/04/28 14:51:55 [notice] 1#1: exit
+2026/04/28 14:52:18 [notice] 1#1: using the "epoll" event method
+2026/04/28 14:52:18 [notice] 1#1: nginx/1.29.8
+2026/04/28 14:52:18 [notice] 1#1: built by gcc 15.2.0 (Alpine 15.2.0) 
+2026/04/28 14:52:18 [notice] 1#1: OS: Linux 6.17.0-1011-azure
+2026/04/28 14:52:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2026/04/28 14:52:18 [notice] 1#1: start worker processes
+2026/04/28 14:52:18 [notice] 1#1: start worker process 21
+2026/04/28 14:52:18 [notice] 1#1: start worker process 22
+2026/04/28 15:19:44 [error] 22#22: *40 connect() failed (113: Host is unreachable) while connecting to upstream, client: 59.52.103.15, server: , request: "GET / HTTP/1.1", upstream: "http://172.19.0.2:8080/", host: "102.37.21.215"
+2026/04/28 15:23:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/04/28 15:23:05 [notice] 21#21: gracefully shutting down
+2026/04/28 15:23:05 [notice] 21#21: exiting
+2026/04/28 15:23:05 [notice] 21#21: exit
+2026/04/28 15:23:05 [notice] 22#22: gracefully shutting down
+2026/04/28 15:23:05 [notice] 22#22: exiting
+2026/04/28 15:23:05 [notice] 22#22: exit
+2026/04/28 15:23:05 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2026/04/28 15:23:05 [notice] 1#1: worker process 21 exited with code 0
+2026/04/28 15:23:05 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/28 15:23:05 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2026/04/28 15:23:05 [notice] 1#1: worker process 22 exited with code 0
+2026/04/28 15:23:05 [notice] 1#1: exit
