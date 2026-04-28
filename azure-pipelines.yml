@@ -41,4 +41,6 @@ stages:
         inline: |
           cd ~/theepicbook
           docker-compose pull app
+          docker-compose stop app
+          docker-compose rm -f app
           docker-compose --compatibility up -d --no-deps app
