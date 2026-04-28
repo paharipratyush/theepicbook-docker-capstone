@@ -31,7 +31,7 @@ stages:
   jobs:
   - job: Deploy
     pool:
-      vmImage: 'ubuntu-latest'
+      name: 'SelfHostedPool'
     steps:
     - task: SSH@0
       displayName: 'Deploy via Docker Compose on VM'
