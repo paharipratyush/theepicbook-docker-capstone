@@ -38,9 +38,10 @@ stages:
       inputs:
         sshEndpoint: 'AzureVM_SSH'
         runOptions: 'inline'
+        failOnStdErr: false
         inline: |
           cd ~/theepicbook
-          docker-compose pull app
-          docker-compose stop app
-          docker-compose rm -f app
-          docker-compose --compatibility up -d --no-deps app
+          docker-compose pull app 2>&1
+          docker-compose stop app 2>&1
+          docker-compose rm -f app 2>&1
+          docker-compose --compatibility up -d --no-deps app 2>&1
