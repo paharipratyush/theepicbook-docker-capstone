@@ -1,4 +1,4 @@
-# Phase 0: App Discovery & Architecture
+# Phase 1: App Discovery & Architecture
 
 **Architecture Overview:**
 The EpicBook application operates as a monolithic Node.js service (handling both EJS frontend views and backend API routes) connected to a MySQL database. To harden this for production, the architecture was containerized and placed behind an Nginx reverse proxy.
