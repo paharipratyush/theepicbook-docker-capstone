@@ -15,4 +15,5 @@ A strict blast radius was established using Docker bridge networks:
 **Learnings & Setbacks:**
 Initially, mapping the architecture revealed that exposing port 8080 directly defeated the purpose of a reverse proxy. By strictly placing the app and database on internal Docker networks without host port bindings (`ports:`), we forced all traffic through Nginx, establishing a single, secure entry point.
 
-<img width="1071" height="443" alt="ad" src="https://github.com/user-attachments/assets/5594c4c3-6de5-426c-bc2f-e02a4956a3c2" />
+<img width="1536" height="1024" alt="Architectural Diagram" src="https://github.com/user-attachments/assets/00c0cf41-6890-40da-b70b-397d0bf71aab" />
+
